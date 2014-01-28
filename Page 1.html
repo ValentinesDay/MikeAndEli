@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: white/url('http://1.bp.blogspot.com/-tpPXiPb8iMo/UXkXgRGIpoI/AAAAAAAACXw/52HKOIEffhk/s200/190390.original.png');
+      color: pink;
+    }
+    a {
+      color: red;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: lightblue;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://www.polyvore.com/cgi/img-thing%3F.out%3Djpg%26size%3Dl%26tid%3D5492687">
+    <h1>Mike & Eli</h1>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Recipe for Love</a></li>
+      <li><a href="#">Mad Libs</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Welcome!</h2>
+    <p>Welcome to our site! You have completed the first task! Now the site is yours to explore!</p>
+    <button>I <3 You!</button>
+  </article>
+  <article>
+    <h2>Good-Bye</h2>
+    <p>See you later alligator!</p>
+    <button>I <3 You!</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("I Love you!!");
+    });
+  </script>
+</body>
