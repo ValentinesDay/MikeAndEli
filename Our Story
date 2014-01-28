@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+ul {
+  padding: 10px;
+  background: black;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+div {
+  height: 300px;
+  background-size: center;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 20px;
+}
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin: 60px 0 0px 0;
+}
+p {
+  background:-webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 5px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 31px;
+  transition: height .5s;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 150px;
+}
+.show-description small {
+  opacity: 1;
+}
+.first{
+  background-image: url("http://s3-media1.ak.yelpcdn.com/bphoto/AjOb20vnmyjNEw3wib0n0Q/ms.jpg");
+}
+.second{
+  background-image: url("http://beerstreetjournal.com/wp-content/uploads/Half-Acre-Brewing-Logo.gif");
+}
+.third{
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQ80fgYcCi11gYFPZtFEdM2gfs8Ai35ZzxFD61Ae4-3Ht3pGo_");
+}
+.fourth{
+  background-image: url("http://bit.ly/1dJvYnl");
+}
+.fifth{
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQSqgy0V3FA8KUr7_pDnqaULFvKJ-SL_PHyWCMst_S-wJZ2CY1HatXxTb5Q");
+}
+.sixth{
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQP4Ko8wdL1_qeGNl4rSmgDufKvpXs21jLUTZOqK4TfNFiCZQEu");
+}
+.seventh {
+  background-image: url("http://bit.ly/1hG9cRP");
+}
+.date {
+  float: right;
+}
+</style>
+</head>
+<body>
+<h1>Mike & Eli</h1>
+<h2>a geeky love story</h2>
+    <ul>
+      <li><a href="#">Our Story</a></li>
+      <li><a href="#">Recipe for Love</a></li>
+      <li><a href="#">Mad Libs</a></li>
+<div class="first">
+  <p>first date<span class="date">june 15</span><br />
+  <small>talking about our 1st date</small></p>
+</div>
+<div class="second">
+  <p>brewery tour <span class="date">june 22</span><br />
+  <small>brewery tour.</small></p>
+</div>
+<div class="third">
+  <p>Hawks Win!<span class="date">june 24</span><br />
+  <small>Hawks Game</small></p>
+</div>
+<div class="fourth">
+  <p>Birthday & First Kiss<span class="date">june 28</span><br />
+  <small>First Kiss</small></p>
+</div>
+<div class="fifth">
+  <p>New Years Eve 2014<span class="date">december 31</span><br />
+  <small>NYE</small></p>
+</div>
+<div class="sixth">
+  <p>Valentine's Day 2014<span class="date">february 14</span><br />
+  <small>Vday</small></p>
+</div>
+<div class="seventh">
+  <p>2014 & Beyond<span class="date">2014</span><br />
+  <small>    <p>
+    01001001 00100000 01101100 01101111 01110110 01100101 00100000 01111001 01101111 01110101 00101100 00100000 01001101 01101001 01101011 01100101 00100001 00001101 00001010</small></p>
+</div>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>
