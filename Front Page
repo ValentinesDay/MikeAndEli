@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Averia+Sans+Libre' rel='stylesheet' type='text/css'>
+<title>Mike & Eli</title>
+  <style>
+    body {
+      font-family: 'Averia Sans Libre', cursive;
+      text-align: center;
+      background: url("http://img1.etsystatic.com/000/0/5605790/il_570xN.317431097.jpg");
+      background-size: cover;
+      color: #f22;
+      font-family: helvetica;
+  }
+  h1 {
+    font-family: 'Averia Sans Libre', cursive;
+  }
+  h2 {
+  font-family: 'Averia Sans Libre', cursive;
+  }
+    input {
+      font-family: 'Averia Sans Libre', cursive;
+      border: 10p;
+      color: #F22;
+      font-size: 18px;
+    }
+    input[type="submit"]{
+        background: white;
+        color: #f22;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mike & Eli</h1>
+  <h2>a geeky love story</h2>
+  <input type="password" placeholder="Password to enter"><br>
+  <input type="submit">
+</body>
