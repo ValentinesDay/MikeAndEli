@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  max-width: 600px;
+  background: black;
+}
+ul {
+  width: 1000px;
+  position: relative;
+  padding: 10px;
+  background: black;
+}
+li {
+  position: relative;
+  left: 70px;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  color: white;
+}
+h1 {
+  position: relative;
+  left: 350px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: relative;
+  font-size: 50px;
+  color: white;
+  margin: 60px 0 0 0;
+}
+h2 {
+  position: relative;
+  left: 395px;
+  text-align: relative;
+  color: white;
+  margin: 60px 0 0px 0;
+}
+div {
+  position: relative;
+  left: 70px;
+  right: 500px;
+  height: 300px;
+  width: 1000px;
+  background-size: relative;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 40px;
+}
+p {
+  position: relative;
+  background:-webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-o-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  color: rgba(255,255,255,1);
+  opacity: .9;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 5px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 31px;
+  width: 1000px; 
+  transition: height .5s;
+  border-radius: 0;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 250px;
+}
+.show-description small {
+  opacity: 1;
+}
+.welcome {
+  background-image: url("http://img1.etsystatic.com/000/0/5605790/il_570xN.317431097.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px
+}
+</style>
+</head>
+<body>
+<h1>Mike & Eli</h1>
+<h2>a geeky love story</h2>
+    <ul>
+      <li><a href="#"><a href="http://www.msn.com">Our Story</a></a></li>
+      <li><a href="#"><a href="http://www.yahoo.com">Recipe for Love</a></li>
+      <li><a href="#"><a href="http://www.cnn.com">Solve for i</a></li>
+      <li><a href="#"><a href="http://www.facebook.com">00111111</a></li>
+      <li><a href="#"><a href="http://www.mu.edu">Mad Libs</a></li>
+<div class="Welcome">
+  <p>welcome<br />
+  <small>Welcome to our website!
+</div>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>
